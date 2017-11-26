@@ -1,0 +1,147 @@
+.container {
+    background-color: #eee;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.account-header {
+    height: 120px;
+    border-bottom: 2px solid grey;
+}
+
+.account-header h4 {
+    text-align: center;
+}
+
+.account-header h5 {
+    text-align: center;
+    color: red;
+}
+
+.account-header .welcome-msg-name {
+    color: #105475;
+    font-weight: bold;
+}
+
+.account-details span {
+    padding: 0;
+}
+
+.refresh-msg {
+    border-bottom: 0;
+}
+
+.refresh-icon {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.credit-Box {
+    height: 330px;
+    border-bottom: 2px solid grey;
+}
+
+.credit-Box h5 {
+    color: #105475;
+    font-weight: bold;
+}
+
+.credit-Box .reset-button {
+    margin-left: 20px;
+}
+
+.text-help {
+    color: red;
+    margin-left: 30%;
+}
+
+.radioOptionsParent {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    height: 40px;
+}
+
+.form-group label {
+    float: left;
+    width: 30%;
+}
+
+.form-group input {
+    width: 50%;
+}
+
+.radioOptions {
+    padding-right: 20px;
+}
+
+.main-label {
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 700;
+}
+
+.radioOptions input {
+    margin-left: 5px !important;
+}
+
+.trans-box-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.trans-box-header .trans-box-title {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    color: #105475;
+    font-weight: bold;
+}
+
+.trans-box {
+    height: calc(100vh - 500px);
+    overflow-y: scroll;
+}
+
+.trans-list {
+    border-bottom: 1px solid grey;
+    height: 100px;
+}
+
+.trans-list span {
+    padding: 0;
+}
+
+@media only screen and (max-width: 420px) {
+    .account-header .welcome-msg {
+        font-size: 12px
+    }
+    .account-header h4 {
+        margin-bottom: 5px;
+    }
+    .account-details {
+        margin-top: 5px;
+    }
+    .credit-Box h4 {
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .app-template {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 767px) {
+    .app-template {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
